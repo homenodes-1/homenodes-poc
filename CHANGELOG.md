@@ -19,3 +19,4 @@ Dates use YYYY-MM-DD.
 - Repository created
 - README with purpose, structure, and security note
 - MIT license
+- Planned bill of materials (hardware/BOM.md)
