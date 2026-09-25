@@ -20,3 +20,4 @@ Dates use YYYY-MM-DD.
 - README with purpose, structure, and security note
 - MIT license
 - Planned bill of materials (hardware/BOM.md)
+- OS selection and rationale (config/OS.md)
