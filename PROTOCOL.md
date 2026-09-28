@@ -1,6 +1,6 @@
 # Phase 1 Measurement Protocol
 
-**Status:** Draft v0.1. To be finalized and committed before the node is listed on Vast.ai. The commit date serves as the pre-registration date.
+**Status:** Draft v0.1. To be finalized and committed before the node is listed on a compute platform. The commit date serves as the pre-registration date.
 **Last updated:** 2026-09-28
 **Applies to:** The single proof-of-concept node described in [hardware/BOM.md](hardware/BOM.md)
 **Related:** [ETHICS.md](https://github.com/homenodes-1/homenodes-framework/blob/main/ETHICS.md), [RESEARCH-LIMITS.md](RESEARCH-LIMITS.md), [ROADMAP.md](https://github.com/homenodes-1/homenodes-framework/blob/main/ROADMAP.md)
@@ -25,10 +25,23 @@ RQ1 and RQ2 are the core AI safety questions. They test whether oversight approa
 | Period | Target dates | Node status | Purpose |
 |---|---|---|---|
 | Baseline | 2 weeks, Oct 2026 | Built, not listed | Idle power, benchmark workloads, measurement checks |
-| Operation | 8 weeks, Nov 2026 to Jan 2027 | Listed on Vast.ai | Renter workloads, visibility audit, gap log |
+| Operation | 8 weeks, Nov 2026 to Jan 2027 | Listed on the selected platform | Renter workloads, visibility audit, gap log |
 | Close-out | 1 week, Jan 2027 | Unlisted | Repeat benchmarks, compare with baseline |
 
 Dates follow the project roadmap. If the start slips, the durations stay the same.
+
+Before listing, the platform offer end date (or its equivalent) is set to the last day of the operation period. Rental contracts cannot be ended early by the host, so this is what keeps the close-out period free of renter workloads.
+
+## Platform and connectivity
+
+The compute platform is treated as a research variable, not a fixed choice.
+
+- **RQ2 and RQ3** use the project's own workloads and need no platform.
+- **RQ1** has two parts:
+  1. **Desk comparison** of three platform types, using public documentation and terms: a rental marketplace where renters connect directly to the host (for example, Vast.ai), a consumer idle-PC network where traffic is routed through the platform (for example, SaladCloud), and a decentralized training network (for example, Prime Intellect or Nous Psyche).
+  2. **Live trial** on one platform during the operation period.
+
+The live trial runs only on an internet connection whose terms permit hosting third-party workloads, confirmed in writing before listing. Standard residential terms from the incumbent ISP prohibit servers and commercial use (gap log G-001). The live platform is chosen once compliant connectivity is confirmed, and the choice is recorded in the CHANGELOG before listing.
 
 ## RQ1: Host visibility audit
 
@@ -36,7 +49,8 @@ The host visibility audit records what a host is able to see, not what renters a
 
 **Method.** Each interface available to a host is checked at the start of each rental period and once a week during operation:
 
-- Vast.ai host dashboard and host CLI
+- Platform host dashboard and host tools
+- Host-level access to container files and processes. Assessed from documentation and system permissions only, never by opening renter data
 - Docker container metadata on the host
 - GPU process and utilization tools (nvidia-smi)
 - Firewall connection metadata (OPNsense)
@@ -150,5 +164,6 @@ By the end of Phase 1:
 
 - One node, one household, one platform. Results show what is possible, not how common it is.
 - Benchmark workloads are chosen by the project and may not reflect what renters actually run.
-- Visibility findings apply to Vast.ai at the time of the study. Platform changes are logged as findings (see risk R9).
+- Visibility findings from the live trial apply to one platform at the time of the study. The desk comparison covers the other platform types. Platform changes are logged as findings (see risk R9).
+- The RTX 5080 has 16GB of GPU memory. Decentralized training networks may require considerably more, so the live trial may not be able to cover that platform type.
 - Low rental demand would limit RQ1 and RQ3 data from the operation period (see risk R5). Low demand is itself reported.
