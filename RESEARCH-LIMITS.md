@@ -29,7 +29,7 @@ A live node, combined with both of the above, is the smallest setup that produce
 1. **No promotion of hosting.** We will not publish earnings figures as an incentive, guides to maximizing income, or anything that presents hosting as a side business. Build and configuration notes are published only at the level needed to reproduce the research.
 2. **No scaling beyond the research sample.** One node in Phase 1. No more than ten homes in Phase 2, each under a written research protocol with a fixed end date. No further expansion without new funding, a new protocol, and public notice.
 3. **No commercial product.** The enclosure concept and the distribution models (builder, ISP, utility) are governance research variables. They are not a business plan, and the project will not manufacture, sell, or broker nodes.
-4. **No open-ended operation.** Each node comes off the marketplace at the end of its study period. A node is also pulled early if we find evidence it is being used for clearly harmful work.
+4. **No open-ended operation.** Before listing, the offer end date on the platform is set to the last day of the study period, so no rental can run past it. Hosts cannot end an active rental contract early. If we find evidence a node is being used for clearly harmful work, we report it to the platform, unlist the node so no new rentals start, and take it offline through the platform's maintenance process as soon as its terms allow.
 5. **No evasion playbook.** Findings that could help someone avoid oversight (for example, which workloads can't be identified from power data) will be shared with compute governance researchers before publication, and published at the level of detail needed for policy, not for evasion.
 
 ## Rental income
