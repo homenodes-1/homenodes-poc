@@ -1,87 +1,41 @@
-# Budget and Milestones
+# Changelog
 
-**Status:** Phase 1 budget. Phase 2 onward will be budgeted after Phase 1 results.
-**Last updated:** 2026-09-28
-**Currency:** Grant amounts in USD. Purchase costs in CAD, as recorded in [hardware/BOM.md](hardware/BOM.md). Conversions use roughly 1 CAD = 0.73 USD.
+All notable changes to the HomeNodes proof of concept are recorded here.
 
-## Phase 1 at a glance
+Dates use YYYY-MM-DD.
 
-| | |
-|---|---|
-| Period | 16 weeks from funding decision (target Oct 2026 to Jan 2027) |
-| Grant request | USD $4,100 for node hardware (BlueDot Impact Rapid Grants, application in preparation) |
-| Self-funded | Electricity, dedicated internet line, website, domain, and email |
-| Research time | Unfunded. Provided by the project lead alongside a full-time role |
+## [Unreleased]
 
-## Grant request (USD $4,100)
+### Planned
+- Build log with dated entries
+- Network diagram and system architecture diagram
+- Energy monitoring setup
+- Node setup script
 
-| Line | Amount | What it pays for | Milestone |
-|---|---|---|---|
-| Node hardware | $4,030 | All components in the BOM: CAD $5,523 including GST | M1 |
-| Price buffer | $70 | GPU and memory prices in Canada are volatile (see risk R1). Any unspent amount is reported and returned or applied to project hardware with the funder's agreement | M1 |
-| **Total** | **$4,100** | | |
+## 2026-09-28
 
-**Why hardware.** The research question is what a residential host can see and measure. That requires being a host. Renting cloud GPUs cannot answer it, and no existing dataset covers it. The hardware is the one cost the project cannot work around, and the rest of Phase 1 can proceed without further funding.
+### Added
+- House system diagram (diagrams/homenodes-house-diagram.svg and .png, planned design)
+- Future-phase N1 enclosure concept (enclosure-concept/). Not the POC spec. See hardware/BOM.md for the POC build
+- Research limits and acceleration risk (RESEARCH-LIMITS.md)
+- Phase 1 measurement protocol, draft v0.1 (PROTOCOL.md)
+- Phase 1 budget and milestones (BUDGET.md)
+- Governance gap log (gap-log/), first entry G-001: residential ISP terms prohibit hosting. Resolved the same day: a local reseller on the same network permits servers for commercial use
 
-**After Phase 1.** The node stays in service as the project's reference node for Phase 2. It is not resold for personal gain. Rental income is handled as set out below.
+### Changed
+- README: added Research section linking the protocol and research limits, and enclosure-concept folder
+- BOM: energy monitor must support local data export at 1-second intervals (required by the protocol)
+- BOM: funding note updated. Full hardware cost is in the planned BlueDot Impact application
+- PROTOCOL: compute platform is now a research variable. RQ1 split into a desk comparison of three platform types and a live trial on one platform, run only on a connection whose terms allow hosting. Offer end date set to the end of the operation period. 16GB GPU memory limitation added
+- RESEARCH-LIMITS: item 4 corrected. Hosts cannot end rental contracts early, so harmful use is reported to the platform and the node is unlisted
+- BUDGET: dedicated internet line for the node added (about CAD $460 for the study period, self-funded)
+- BOM: operating environment updated for the dedicated internet line
 
-## Self-funded costs
+## [Phase 1] - 2026-09-25
 
-| Item | Amount | Notes |
-|---|---|---|
-| Electricity for the study period | About CAD $150 | Up to about 1,000 kWh over 11 weeks at peak draw. City residential energy rate is $0.07/kWh plus surcharge and delivery charges. CAD $0.15/kWh used as a conservative all-in planning figure |
-| Website, domain, and email | Recorded at actual cost | Squarespace, homenodes.ca, Microsoft 365 |
-| Dedicated internet line for the node | About CAD $460 | Local cable reseller whose terms allow servers for commercial use (see gap log G-001). 1000 Mbps down, 50 Mbps up, unlimited data, no contract, setup fee waived. CAD $99.95/month plus $10/month modem rental, for about four months from build to close-out, plus GST |
-
-## Not yet funded
-
-These are part of the Phase 1 plan but not included in the current request. They proceed on a volunteer basis unless separate funding is secured.
-
-| Item | Status |
-|---|---|
-| Research time (protocol, gap analysis, framework drafting, Phase 1 report) | Provided by the project lead, unpaid |
-| Expert interviews (compute governance researchers, platform operators, privacy specialists) | Planned without honoraria. Honoraria may be sought separately if response rates are low (see risk R3) |
-
-## Rental income
-
-Phase 1 rental income from the live platform is recorded here and applied to project costs, mainly electricity (see [RESEARCH-LIMITS.md](RESEARCH-LIMITS.md)).
-
-| Period | Income (USD) | Applied to |
-|---|---|---|
-| | | |
-
-## Milestones
-
-Week 0 is the funding decision. Target dates assume a decision in October 2026.
-
-| # | Milestone | Week | Target | Evidence of completion |
-|---|---|---|---|---|
-| M1 | Hardware purchased, actual costs recorded in the BOM | 2 | Oct 2026 | Updated BOM with suppliers, dates, and prices |
-| M2 | Node built, hardened, isolated on the home network | 4 | Oct 2026 | Build log and sanitized configuration |
-| M3 | Protocol v1.0 committed, baseline period complete | 6 | Nov 2026 | PROTOCOL.md v1.0 commit (pre-registration), baseline benchmark data |
-| M4 | Node listed, operation period starts | 6 | Nov 2026 | First visibility audit entry, first gap log entries |
-| M5 | Expert interviews complete | 8 | Nov 2026 | Anonymized interview summary |
-| M6 | Gap analysis v0.2 and draft framework v0.5 | 12 | Dec 2026 | Both documents published in homenodes-framework |
-| M7 | Operation and close-out complete, Phase 1 report published | 16 | Jan 2027 | Visibility matrix, identifiability results, energy dataset, gap log, public report |
-
-## Funding sources
-
-| Source | Amount | Status | Covers |
-|---|---|---|---|
-| BlueDot Impact Rapid Grants | USD $4,100 | In preparation | Node hardware |
-| IEEE Computer Society Emerging Technologies Fund | USD $22,000 | Submitted, pending | See application |
-| Self-funded | See above | Committed | Electricity, dedicated internet line, website, research time |
-
-If more than one application is approved, no cost is funded twice. Any line covered by one funder is removed from the others, each funder is told, and the change is recorded here.
-
-## Actual spend
-
-Recorded as costs are incurred.
-
-| Date | Item | Amount (CAD) | Funded by |
-|---|---|---|---|
-| | | | |
-
-## Phase 2 and later
-
-Not yet budgeted. The main cost drivers are hardware for participating households, electricity reimbursement, independent ethics review of the Phase 2 protocol, research time, and conference presentation of findings (planned for fall 2027 in the roadmap). The Phase 2 budget will be set once Phase 1 data shows actual energy use and operating effort, and before any household is recruited.
+### Added
+- Repository created
+- README with purpose, structure, and security note
+- MIT license
+- Planned bill of materials (hardware/BOM.md)
+- OS selection and rationale (config/OS.md)
