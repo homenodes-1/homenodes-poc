@@ -15,12 +15,17 @@ The node provides a real-world test case for the [HomeNodes Governance Framework
 | `diagrams/` | Network, system architecture, and energy monitoring diagrams |
 | `config/` | Setup scripts and configuration files |
 | `monitoring/` | Monitoring setup and dashboard screenshots |
+| `enclosure-concept/` | Future-phase enclosure concept. Not the POC spec |
 
 Folders are added as work progresses.
 
 ## Status
 
 **Phase 1:** Single home node. Hardware procurement and build in progress.
+
+## Research limits
+
+The node adds a small amount of compute to a public marketplace. What the project will and will not do about that (no promotion of hosting, no scaling beyond the research sample, no commercial product) is set out in [RESEARCH-LIMITS.md](RESEARCH-LIMITS.md).
 
 ## Security note
 
