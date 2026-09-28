@@ -34,7 +34,7 @@ A live node, combined with both of the above, is the smallest setup that produce
 
 ## Rental income
 
-Rental income is reported in the project's public records and applied to project costs, mainly electricity. It is not a funding source the project depends on.
+Phase 1 rental income is reported in the project's public records and applied to project costs, mainly electricity. It is not a funding source the project depends on. In Phase 2, participants receive host earnings directly, as set out in the [ethics statement](https://github.com/homenodes-1/homenodes-framework/blob/main/ETHICS.md).
 
 ## Review
 
