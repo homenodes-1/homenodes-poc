@@ -65,7 +65,7 @@ Hardware for a single residential AI compute node, operated as a host on the Vas
 
 ## Funding
 
-The HomeNodes BlueDot Impact Rapid Grant application includes USD $1,200 for reference node deployment. Hardware costs above that amount are self-funded by the project.
+The full hardware cost is included in a planned BlueDot Impact Rapid Grant application (USD $4,100, in preparation). See [BUDGET.md](../BUDGET.md).
 
 ## Pricing notes
 
