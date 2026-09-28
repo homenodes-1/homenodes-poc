@@ -31,6 +31,7 @@
 |---|---|---|
 | Electricity for the study period | About CAD $150 | Up to about 1,000 kWh over 11 weeks at peak draw. City residential energy rate is $0.07/kWh plus surcharge and delivery charges. CAD $0.15/kWh used as a conservative all-in planning figure |
 | Website, domain, and email | Recorded at actual cost | Squarespace, homenodes.ca, Microsoft 365 |
+| Internet line for the node | To be confirmed | A separate line from a local provider whose terms allow hosting (see gap log G-001). Monthly cost added once quoted |
 
 ## Not yet funded
 
@@ -43,7 +44,7 @@ These are part of the Phase 1 plan but not included in the current request. They
 
 ## Rental income
 
-Phase 1 rental income from Vast.ai is recorded here and applied to project costs, mainly electricity (see [RESEARCH-LIMITS.md](RESEARCH-LIMITS.md)).
+Phase 1 rental income from the live platform is recorded here and applied to project costs, mainly electricity (see [RESEARCH-LIMITS.md](RESEARCH-LIMITS.md)).
 
 | Period | Income (USD) | Applied to |
 |---|---|---|
