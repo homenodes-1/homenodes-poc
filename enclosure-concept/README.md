@@ -4,7 +4,7 @@
 
 ## POC hardware
 
-The proof of concept spec is [`BOM.md`](/BOM.md): the RTX 5080 desktop build. That remains the only hardware being purchased and tested in the current phase.
+The proof of concept spec is [`BOM.md`](/hardware/BOM.md): the RTX 5080 desktop build. That remains the only hardware being purchased and tested in the current phase.
 
 ## What this folder is
 
