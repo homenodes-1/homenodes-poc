@@ -10,7 +10,7 @@
 |---|---|
 | Period | 16 weeks from funding decision (target Oct 2026 to Jan 2027) |
 | Grant request | USD $4,100 for node hardware (BlueDot Impact Rapid Grants, application in preparation) |
-| Self-funded | Electricity, website, domain, and email |
+| Self-funded | Electricity, dedicated internet line, website, domain, and email |
 | Research time | Unfunded. Provided by the project lead alongside a full-time role |
 
 ## Grant request (USD $4,100)
@@ -31,7 +31,7 @@
 |---|---|---|
 | Electricity for the study period | About CAD $150 | Up to about 1,000 kWh over 11 weeks at peak draw. City residential energy rate is $0.07/kWh plus surcharge and delivery charges. CAD $0.15/kWh used as a conservative all-in planning figure |
 | Website, domain, and email | Recorded at actual cost | Squarespace, homenodes.ca, Microsoft 365 |
-| Internet line for the node | To be confirmed | A separate line from a local provider whose terms allow hosting (see gap log G-001). Monthly cost added once quoted |
+| Dedicated internet line for the node | About CAD $460 | Local cable reseller whose terms allow servers for commercial use (see gap log G-001). 1000 Mbps down, 50 Mbps up, unlimited data, no contract, setup fee waived. CAD $99.95/month plus $10/month modem rental, for about four months from build to close-out, plus GST |
 
 ## Not yet funded
 
@@ -70,7 +70,7 @@ Week 0 is the funding decision. Target dates assume a decision in October 2026.
 |---|---|---|---|
 | BlueDot Impact Rapid Grants | USD $4,100 | In preparation | Node hardware |
 | IEEE Computer Society Emerging Technologies Fund | USD $22,000 | Submitted, pending | See application |
-| Self-funded | See above | Committed | Electricity, website, research time |
+| Self-funded | See above | Committed | Electricity, dedicated internet line, website, research time |
 
 If more than one application is approved, no cost is funded twice. Any line covered by one funder is removed from the others, each funder is told, and the change is recorded here.
 
