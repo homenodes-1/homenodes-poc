@@ -53,7 +53,7 @@ Hardware for a single residential AI compute node, operated as a host on the Vas
 | Location | Residential basement, elevated off floor |
 | Electrical | Standard 15A / 120V residential circuit |
 | Estimated peak draw | ~550W (GPU 360W TDP, CPU 65W TDP, system overhead) |
-| Internet | 1 Gbps symmetrical residential fibre/cable |
+| Internet | Dedicated line for the node from a local cable reseller whose terms allow hosting. 1000 Mbps down, 50 Mbps up (see gap log G-001) |
 | Platform | Vast.ai |
 | Operating system | Ubuntu Server LTS |
 
