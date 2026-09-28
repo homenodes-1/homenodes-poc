@@ -20,11 +20,15 @@ Dates use YYYY-MM-DD.
 - Research limits and acceleration risk (RESEARCH-LIMITS.md)
 - Phase 1 measurement protocol, draft v0.1 (PROTOCOL.md)
 - Phase 1 budget and milestones (BUDGET.md)
+- Governance gap log (gap-log/), first entry G-001: residential ISP terms prohibit hosting. Resolved the same day: a local reseller on the same network permits servers for commercial use
 
 ### Changed
 - README: added Research section linking the protocol and research limits, and enclosure-concept folder
 - BOM: energy monitor must support local data export at 1-second intervals (required by the protocol)
 - BOM: funding note updated. Full hardware cost is in the planned BlueDot Impact application
+- PROTOCOL: compute platform is now a research variable. RQ1 split into a desk comparison of three platform types and a live trial on one platform, run only on a connection whose terms allow hosting. Offer end date set to the end of the operation period. 16GB GPU memory limitation added
+- RESEARCH-LIMITS: item 4 corrected. Hosts cannot end rental contracts early, so harmful use is reported to the platform and the node is unlisted
+- BUDGET: internet line for the node added as a cost to be confirmed
 
 ## [Phase 1] - 2026-09-25
 
