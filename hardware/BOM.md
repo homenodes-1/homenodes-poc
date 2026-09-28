@@ -1,7 +1,7 @@
 # Bill of Materials
 
 **Status:** Planned (not yet purchased)
-**Last updated:** 2026-09-25
+**Last updated:** 2026-09-28
 **Currency:** CAD, before GST unless noted
 
 ## Purpose
@@ -22,14 +22,14 @@ Hardware for a single residential AI compute node, operated as a host on the Vas
 | 8 | CPU cooler | Tower air cooler | 1 | $60 | TBD | Planned |
 | 9 | UPS | 1500VA line-interactive | 1 | $350 | TBD | Planned |
 | 10 | Firewall | Mini PC, dual NIC, OPNsense | 1 | $350 | TBD | Planned |
-| 11 | Energy monitoring | Smart plug with energy metering | 1 | $30 | TBD | Planned |
+| 11 | Energy monitoring | Smart plug with energy metering, local data export at 1-second intervals (see PROTOCOL.md) | 1 | $50 | TBD | Planned |
 | 12 | Network | Cat6 cable run and patch cables | 1 | $50 | TBD | Planned |
 
 | | Amount |
 |---|---|
-| **Subtotal** | $5,240 |
-| GST (5%) | $262 |
-| **Total** | **$5,502** |
+| **Subtotal** | $5,260 |
+| GST (5%) | $263 |
+| **Total** | **$5,523** |
 | Approx. USD | ~$3,800 (before tax) |
 
 ## Design decisions
