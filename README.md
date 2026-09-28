@@ -15,6 +15,7 @@ The node provides a real-world test case for the [HomeNodes Governance Framework
 | `diagrams/` | Network, system architecture, and energy monitoring diagrams |
 | `config/` | Setup scripts and configuration files |
 | `monitoring/` | Monitoring setup and dashboard screenshots |
+| `gap-log/` | Governance gap log, one entry per gap |
 | `enclosure-concept/` | Future-phase enclosure concept. Not the POC spec |
 
 Folders are added as work progresses.
@@ -28,7 +29,7 @@ Folders are added as work progresses.
 | Document | Contents |
 |---|---|
 | [PROTOCOL.md](PROTOCOL.md) | Phase 1 measurement protocol: research questions, study periods, methods, and planned analysis. Draft until the node is listed. The v1.0 commit date is the pre-registration date. |
-| [RESEARCH-LIMITS.md](RESEARCH-LIMITS.md) | What the project will and will not do about adding compute to a public marketplace (no promotion of hosting, no scaling beyond the research sample, no commercial product). |
+| [RESEARCH-LIMITS.md](RESEARCH-LIMITS.md) | What the project will and will not do about adding compute to a public compute platform (no promotion of hosting, no scaling beyond the research sample, no commercial product). |
 | [BUDGET.md](BUDGET.md) | Phase 1 budget, milestones, funding sources, and actual spend. |
 
 ## Security note
