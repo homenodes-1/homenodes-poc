@@ -23,9 +23,12 @@ Folders are added as work progresses.
 
 **Phase 1:** Single home node. Hardware procurement and build in progress.
 
-## Research limits
+## Research
 
-The node adds a small amount of compute to a public marketplace. What the project will and will not do about that (no promotion of hosting, no scaling beyond the research sample, no commercial product) is set out in [RESEARCH-LIMITS.md](RESEARCH-LIMITS.md).
+| Document | Contents |
+|---|---|
+| [PROTOCOL.md](PROTOCOL.md) | Phase 1 measurement protocol: research questions, study periods, methods, and planned analysis. Draft until the node is listed. The v1.0 commit date is the pre-registration date. |
+| [RESEARCH-LIMITS.md](RESEARCH-LIMITS.md) | What the project will and will not do about adding compute to a public marketplace (no promotion of hosting, no scaling beyond the research sample, no commercial product). |
 
 ## Security note
 
