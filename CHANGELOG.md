@@ -30,6 +30,14 @@ Dates use YYYY-MM-DD.
 - RESEARCH-LIMITS: item 4 corrected. Hosts cannot end rental contracts early, so harmful use is reported to the platform and the node is unlisted
 - BUDGET: dedicated internet line for the node added (about CAD $460 for the study period, self-funded)
 - BOM: operating environment updated for the dedicated internet line
+- PROTOCOL: live platform selected (Vast.ai) after the dedicated line was confirmed to have a static public IPv4 address with no blocked inbound ports. Upload limit noted
+- Gap log G-001: IP address and port details confirmed. Status resolved
+
+## 2026-09-29
+
+### Changed
+- BUDGET: dedicated internet line moved from self-funded to the grant request. CAD $1,133.79 for four months including the one-time static IP cost and GST. BlueDot request raised from USD $4,100 to USD $4,928
+- BOM: static IP added to the internet line. Funding note updated to the new request amount
 
 ## [Phase 1] - 2026-09-25
 
