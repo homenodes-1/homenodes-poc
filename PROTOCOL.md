@@ -43,6 +43,8 @@ The compute platform is treated as a research variable, not a fixed choice.
 
 The live trial runs only on an internet connection whose terms permit hosting third-party workloads, confirmed in writing before listing. Standard residential terms from the incumbent ISP prohibit servers and commercial use (gap log G-001). The live platform is chosen once compliant connectivity is confirmed, and the choice is recorded in the CHANGELOG before listing.
 
+**Selected (2026-09-28):** Vast.ai, on a dedicated line from a local provider whose terms allow servers for commercial use, with a static public IPv4 address and no blocked inbound ports (gap log G-001). The line has 50 Mbps upload, lower than many hosts, which may reduce rental demand (risk R5). Any effect on demand is reported as a limitation.
+
 ## RQ1: Host visibility audit
 
 The host visibility audit records what a host is able to see, not what renters are doing. In line with the ethics statement, workload contents and renter identity are never collected.
