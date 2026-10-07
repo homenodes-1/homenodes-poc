@@ -1,7 +1,7 @@
 # Bill of Materials
 
 **Status:** Planned (not yet purchased)
-**Last updated:** 2026-09-28
+**Last updated:** 2026-10-07
 **Currency:** CAD, before GST unless noted
 
 ## Purpose
@@ -65,7 +65,7 @@ Hardware for a single residential AI compute node, operated as a host on the Vas
 
 ## Funding
 
-The full hardware cost is included in a planned BlueDot Impact Rapid Grant application (USD $4,928 including the dedicated internet line, in preparation). See [BUDGET.md](../BUDGET.md).
+The full hardware cost is included in a planned BlueDot Impact Rapid Grant application (USD $4,950 including the dedicated internet line, in preparation). See [BUDGET.md](../BUDGET.md).
 
 ## Pricing notes
 
