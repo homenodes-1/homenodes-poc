@@ -17,6 +17,7 @@ Dates use YYYY-MM-DD.
 ### Changed
 - BUDGET: grant request rounded to USD $4,950 to match the application form (nearest $50). Price buffer raised from USD $70 to USD $92
 - BOM: funding note updated to the new request amount
+- BUDGET and BOM: BlueDot Impact Rapid Grant application submitted. Status updated from in preparation to pending
 
 ## 2026-09-29
 
