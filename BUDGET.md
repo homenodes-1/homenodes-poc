@@ -1,7 +1,7 @@
 # Budget and Milestones
 
 **Status:** Phase 1 budget. Phase 2 onward will be budgeted after Phase 1 results.
-**Last updated:** 2026-09-29
+**Last updated:** 2026-10-07
 **Currency:** Grant amounts in USD. Purchase costs in CAD, as recorded in [hardware/BOM.md](hardware/BOM.md). Conversions use roughly 1 CAD = 0.73 USD.
 
 ## Phase 1 at a glance
@@ -9,18 +9,18 @@
 | | |
 |---|---|
 | Period | 16 weeks from funding decision (target Oct 2026 to Jan 2027) |
-| Grant request | USD $4,928 for node hardware and the dedicated internet line (BlueDot Impact Rapid Grants, application in preparation) |
+| Grant request | USD $4,950 for node hardware and the dedicated internet line (BlueDot Impact Rapid Grants, application in preparation) |
 | Self-funded | Electricity, website, domain, and email |
 | Research time | Unfunded. Provided by the project lead alongside a full-time role |
 
-## Grant request (USD $4,928)
+## Grant request (USD $4,950)
 
 | Line | Amount | What it pays for | Milestone |
 |---|---|---|---|
 | Node hardware | $4,030 | All components in the BOM: CAD $5,523 including GST | M1 |
-| Price buffer | $70 | GPU and memory prices in Canada are volatile (see risk R1). Any unspent amount is reported and returned or applied to project hardware with the funder's agreement | M1 |
+| Price buffer | $92 | GPU and memory prices in Canada are volatile (see risk R1). Any unspent amount is reported and returned or applied to project hardware with the funder's agreement | M1 |
 | Dedicated internet line | $828 | CAD $1,133.79 including GST. Breakdown below | M2 to M7 |
-| **Total** | **$4,928** | | |
+| **Total** | **$4,950** | | |
 
 **Internet line breakdown (CAD).** The node runs on a separate line from a local cable reseller whose terms allow servers for commercial use (see gap log G-001). Month-to-month, no contract, setup fee waived. Budgeted for four months, build to close-out.
 
@@ -83,7 +83,7 @@ Week 0 is the funding decision. Target dates assume a decision in October 2026.
 
 | Source | Amount | Status | Covers |
 |---|---|---|---|
-| BlueDot Impact Rapid Grants | USD $4,928 | In preparation | Node hardware and dedicated internet line |
+| BlueDot Impact Rapid Grants | USD $4,950 | In preparation | Node hardware and dedicated internet line |
 | IEEE Computer Society Emerging Technologies Fund | USD $22,000 | Submitted, pending | See application |
 | Self-funded | See above | Committed | Electricity, website, research time |
 
