@@ -12,6 +12,18 @@ Dates use YYYY-MM-DD.
 - Energy monitoring setup
 - Node setup script
 
+## 2026-10-07
+
+### Changed
+- BUDGET: grant request rounded to USD $4,950 to match the application form (nearest $50). Price buffer raised from USD $70 to USD $92
+- BOM: funding note updated to the new request amount
+
+## 2026-09-29
+
+### Changed
+- BUDGET: dedicated internet line moved from self-funded to the grant request. CAD $1,133.79 for four months including the one-time static IP cost and GST. BlueDot request raised from USD $4,100 to USD $4,928
+- BOM: static IP added to the internet line. Funding note updated to the new request amount
+
 ## 2026-09-28
 
 ### Added
@@ -32,12 +44,6 @@ Dates use YYYY-MM-DD.
 - BOM: operating environment updated for the dedicated internet line
 - PROTOCOL: live platform selected (Vast.ai) after the dedicated line was confirmed to have a static public IPv4 address with no blocked inbound ports. Upload limit noted
 - Gap log G-001: IP address and port details confirmed. Status resolved
-
-## 2026-09-29
-
-### Changed
-- BUDGET: dedicated internet line moved from self-funded to the grant request. CAD $1,133.79 for four months including the one-time static IP cost and GST. BlueDot request raised from USD $4,100 to USD $4,928
-- BOM: static IP added to the internet line. Funding note updated to the new request amount
 
 ## [Phase 1] - 2026-09-25
 
