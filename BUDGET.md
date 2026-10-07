@@ -9,7 +9,7 @@
 | | |
 |---|---|
 | Period | 16 weeks from funding decision (target Oct 2026 to Jan 2027) |
-| Grant request | USD $4,950 for node hardware and the dedicated internet line (BlueDot Impact Rapid Grants, application in preparation) |
+| Grant request | USD $4,950 for node hardware and the dedicated internet line (BlueDot Impact Rapid Grants, submitted 2026-10-07) |
 | Self-funded | Electricity, website, domain, and email |
 | Research time | Unfunded. Provided by the project lead alongside a full-time role |
 
@@ -83,7 +83,7 @@ Week 0 is the funding decision. Target dates assume a decision in October 2026.
 
 | Source | Amount | Status | Covers |
 |---|---|---|---|
-| BlueDot Impact Rapid Grants | USD $4,950 | In preparation | Node hardware and dedicated internet line |
+| BlueDot Impact Rapid Grants | USD $4,950 | Submitted 2026-10-07, pending | Node hardware and dedicated internet line |
 | IEEE Computer Society Emerging Technologies Fund | USD $22,000 | Submitted, pending | See application |
 | Self-funded | See above | Committed | Electricity, website, research time |
 
