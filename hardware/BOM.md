@@ -53,7 +53,7 @@ Hardware for a single residential AI compute node, operated as a host on the Vas
 | Location | Residential basement, elevated off floor |
 | Electrical | Standard 15A / 120V residential circuit |
 | Estimated peak draw | ~550W (GPU 360W TDP, CPU 65W TDP, system overhead) |
-| Internet | Dedicated line for the node from a local cable reseller whose terms allow hosting. 1000 Mbps down, 50 Mbps up (see gap log G-001) |
+| Internet | Dedicated line for the node from a local cable reseller whose terms allow hosting. 1000 Mbps down, 50 Mbps up, static public IPv4 address, no blocked inbound ports (see gap log G-001) |
 | Platform | Vast.ai |
 | Operating system | Ubuntu Server LTS |
 
@@ -65,7 +65,7 @@ Hardware for a single residential AI compute node, operated as a host on the Vas
 
 ## Funding
 
-The full hardware cost is included in a planned BlueDot Impact Rapid Grant application (USD $4,100, in preparation). See [BUDGET.md](../BUDGET.md).
+The full hardware cost is included in a planned BlueDot Impact Rapid Grant application (USD $4,928 including the dedicated internet line, in preparation). See [BUDGET.md](../BUDGET.md).
 
 ## Pricing notes
 
