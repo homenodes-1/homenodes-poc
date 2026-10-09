@@ -1,6 +1,6 @@
 # Budget and Milestones
 
-**Status:** Phase 1 budget. Phase 2 onward will be budgeted after Phase 1 results.
+**Status:** Phase 1 budget. The Phase 2 planning estimate is in [PHASE-2-BUDGET.md](https://github.com/homenodes-1/homenodes-framework/blob/main/PHASE-2-BUDGET.md).
 **Last updated:** 2026-10-09
 **Currency:** Funding amounts in USD. Purchase costs in CAD, as recorded in [hardware/BOM.md](hardware/BOM.md). Conversions use roughly 1 CAD = 0.73 USD.
 
@@ -86,8 +86,6 @@ Week 0 is the funding decision. Target dates assume a decision in October 2026.
 | Self-funded | See above | Committed | Electricity, website, research time |
 | External funding | USD $4,950 | None secured | Node hardware and dedicated internet line |
 
-Potential funders include the IEEE Computer Society Emerging Technologies Fund, BlueDot Impact, and EA Funds. Funding status is disclosed directly to each funder.
-
 No cost is funded twice. If more than one funder supports the project, any line covered by one is removed from the others, each funder is told, and the change is recorded here.
 
 ## Actual spend
@@ -100,4 +98,4 @@ Recorded as costs are incurred.
 
 ## Phase 2 and later
 
-Not yet budgeted. The main cost drivers are hardware for participating households, electricity reimbursement, independent ethics review of the Phase 2 protocol, research time, and conference presentation of findings (planned for fall 2027 in the roadmap). The Phase 2 budget will be set once Phase 1 data shows actual energy use and operating effort, and before any household is recruited.
+A planning estimate for Phase 2 is published in [PHASE-2-BUDGET.md](https://github.com/homenodes-1/homenodes-framework/blob/main/PHASE-2-BUDGET.md): about CAD $42,400 for five homes and about CAD $80,200 for ten. It is revised once Phase 1 data shows actual energy use and operating effort, and before any household is recruited. Later phases are not yet budgeted.
