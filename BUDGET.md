@@ -1,19 +1,19 @@
 # Budget and Milestones
 
 **Status:** Phase 1 budget. Phase 2 onward will be budgeted after Phase 1 results.
-**Last updated:** 2026-10-07
-**Currency:** Grant amounts in USD. Purchase costs in CAD, as recorded in [hardware/BOM.md](hardware/BOM.md). Conversions use roughly 1 CAD = 0.73 USD.
+**Last updated:** 2026-10-09
+**Currency:** Funding amounts in USD. Purchase costs in CAD, as recorded in [hardware/BOM.md](hardware/BOM.md). Conversions use roughly 1 CAD = 0.73 USD.
 
 ## Phase 1 at a glance
 
 | | |
 |---|---|
 | Period | 16 weeks from funding decision (target Oct 2026 to Jan 2027) |
-| Grant request | USD $4,950 for node hardware and the dedicated internet line (BlueDot Impact Rapid Grants, submitted 2026-10-07) |
+| Funding need | USD $4,950 for node hardware and the dedicated internet line. No external funding secured yet |
 | Self-funded | Electricity, website, domain, and email |
 | Research time | Unfunded. Provided by the project lead alongside a full-time role |
 
-## Grant request (USD $4,950)
+## Phase 1 funding need (USD $4,950)
 
 | Line | Amount | What it pays for | Milestone |
 |---|---|---|---|
@@ -50,7 +50,7 @@ If Phase 1 runs longer than four months, each extra month costs CAD $125.95 incl
 
 ## Not yet funded
 
-These are part of the Phase 1 plan but not included in the current request. They proceed on a volunteer basis unless separate funding is secured.
+These are part of the Phase 1 plan but not included in the Phase 1 funding need. They proceed on a volunteer basis unless separate funding is secured.
 
 | Item | Status |
 |---|---|
@@ -83,11 +83,12 @@ Week 0 is the funding decision. Target dates assume a decision in October 2026.
 
 | Source | Amount | Status | Covers |
 |---|---|---|---|
-| BlueDot Impact Rapid Grants | USD $4,950 | Submitted 2026-10-07, pending | Node hardware and dedicated internet line |
-| IEEE Computer Society Emerging Technologies Fund | USD $22,000 | Submitted, pending | See application |
 | Self-funded | See above | Committed | Electricity, website, research time |
+| External funding | USD $4,950 | None secured | Node hardware and dedicated internet line |
 
-If more than one application is approved, no cost is funded twice. Any line covered by one funder is removed from the others, each funder is told, and the change is recorded here.
+Potential funders include the IEEE Computer Society Emerging Technologies Fund, BlueDot Impact, and EA Funds. Funding status is disclosed directly to each funder.
+
+No cost is funded twice. If more than one funder supports the project, any line covered by one is removed from the others, each funder is told, and the change is recorded here.
 
 ## Actual spend
 
