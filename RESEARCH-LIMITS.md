@@ -1,7 +1,7 @@
 # Research Limits and Acceleration Risk
 
 **Status:** Project commitment. Applies to all phases.
-**Last updated:** 2026-09-28
+**Last updated:** 2026-10-09
 
 ## The concern
 
@@ -27,14 +27,14 @@ A live node, combined with both of the above, is the smallest setup that produce
 ## What the project will not do
 
 1. **No promotion of hosting.** We will not publish earnings figures as an incentive, guides to maximizing income, or anything that presents hosting as a side business. Build and configuration notes are published only at the level needed to reproduce the research.
-2. **No scaling beyond the research sample.** One node in Phase 1. No more than ten homes in Phase 2, each under a written research protocol with a fixed end date. No further expansion without new funding, a new protocol, and public notice.
+2. **No scaling beyond the research sample.** One node in Phase 1. No more than ten homes in Phase 2, each under a written research protocol with a fixed end date. Phase 2 hardware is loaned and removed when the study ends. No further expansion without new funding, a new protocol, and public notice.
 3. **No commercial product.** The enclosure concept and the distribution models (builder, ISP, utility) are governance research variables. They are not a business plan, and the project will not manufacture, sell, or broker nodes.
 4. **No open-ended operation.** Before listing, the offer end date on the platform is set to the last day of the study period, so no rental can run past it. Hosts cannot end an active rental contract early. If we find evidence a node is being used for clearly harmful work, we report it to the platform, unlist the node so no new rentals start, and take it offline through the platform's maintenance process as soon as its terms allow.
 5. **No evasion playbook.** Findings that could help someone avoid oversight (for example, which workloads can't be identified from power data) will be shared with compute governance researchers before publication, and published at the level of detail needed for policy, not for evasion.
 
 ## Rental income
 
-Phase 1 rental income is reported in the project's public records and applied to project costs, mainly electricity. It is not a funding source the project depends on. In Phase 2, participants receive host earnings directly, as set out in the [ethics statement](https://github.com/homenodes-1/homenodes-framework/blob/main/ETHICS.md).
+Phase 1 rental income is reported in the project's public records and applied to project costs, mainly electricity. It is not a funding source the project depends on. In Phase 2, the project owns and operates the loaned nodes, so rental income is handled the same way. Households are reimbursed for the electricity the node uses. See the [ethics statement](https://github.com/homenodes-1/homenodes-framework/blob/main/ETHICS.md) and the [Phase 2 plan](https://github.com/homenodes-1/homenodes-framework/blob/main/PHASE-2.md).
 
 ## Review
 
