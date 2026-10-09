@@ -14,7 +14,14 @@ Dates use YYYY-MM-DD.
 
 ## 2026-10-09
 
+### Added
+- Phase 1 overview (PHASE-1.md): questions, setup, schedule, cost, and what Phase 1 cannot show
+- Phase 1 overview diagram (diagrams/phase-1-overview.svg and .png)
+
 ### Changed
+- README: purpose rewritten around the Phase 1 study. PHASE-1.md added to the research table
+- BUDGET: funder names removed. Phase 2 section now points to the Phase 2 planning estimate in homenodes-framework
+- RESEARCH-LIMITS: Phase 2 hardware is loaned and removed at the end. Phase 2 rental income is handled as in Phase 1, because the project owns and operates the nodes
 - BUDGET and BOM: funding sections revised to list potential funders without application status. Status is disclosed directly to each funder
 - CHANGELOG: funder names removed from earlier entries for the same reason. Amounts and dates are unchanged
 
