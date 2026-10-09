@@ -12,17 +12,23 @@ Dates use YYYY-MM-DD.
 - Energy monitoring setup
 - Node setup script
 
+## 2026-10-09
+
+### Changed
+- BUDGET and BOM: funding sections revised to list potential funders without application status. Status is disclosed directly to each funder
+- CHANGELOG: funder names removed from earlier entries for the same reason. Amounts and dates are unchanged
+
 ## 2026-10-07
 
 ### Changed
-- BUDGET: grant request rounded to USD $4,950 to match the application form (nearest $50). Price buffer raised from USD $70 to USD $92
+- BUDGET: funding request rounded to USD $4,950 (nearest $50). Price buffer raised from USD $70 to USD $92
 - BOM: funding note updated to the new request amount
-- BUDGET and BOM: BlueDot Impact Rapid Grant application submitted. Status updated from in preparation to pending
+- BUDGET and BOM: funding status updated
 
 ## 2026-09-29
 
 ### Changed
-- BUDGET: dedicated internet line moved from self-funded to the grant request. CAD $1,133.79 for four months including the one-time static IP cost and GST. BlueDot request raised from USD $4,100 to USD $4,928
+- BUDGET: dedicated internet line moved from self-funded to the funding request. CAD $1,133.79 for four months including the one-time static IP cost and GST. Funding request raised from USD $4,100 to USD $4,928
 - BOM: static IP added to the internet line. Funding note updated to the new request amount
 
 ## 2026-09-28
@@ -38,7 +44,7 @@ Dates use YYYY-MM-DD.
 ### Changed
 - README: added Research section linking the protocol and research limits, and enclosure-concept folder
 - BOM: energy monitor must support local data export at 1-second intervals (required by the protocol)
-- BOM: funding note updated. Full hardware cost is in the planned BlueDot Impact application
+- BOM: funding note updated. Full hardware cost is in the planned funding request
 - PROTOCOL: compute platform is now a research variable. RQ1 split into a desk comparison of three platform types and a live trial on one platform, run only on a connection whose terms allow hosting. Offer end date set to the end of the operation period. 16GB GPU memory limitation added
 - RESEARCH-LIMITS: item 4 corrected. Hosts cannot end rental contracts early, so harmful use is reported to the platform and the node is unlisted
 - BUDGET: dedicated internet line for the node added (about CAD $460 for the study period, self-funded)
